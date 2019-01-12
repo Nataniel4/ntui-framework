@@ -1,0 +1,25 @@
+/*
+ * ntui-ux.css
+ * NtUI Framework UX Theme
+ *
+ * Crated by Nataniel López @ 04/26/2018
+ * Copyright (c) 2018 Nataniel López
+ */
+
+body {
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.ntui-ux-components-window {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+	background: #FF0000;
+}

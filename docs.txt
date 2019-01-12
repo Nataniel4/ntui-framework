@@ -1,0 +1,55 @@
+//NtUI Core
+
+//ntui
+
+ntui.version();
+*Returns ntui version.
+
+ntui.build();
+*Returns ntui build number.
+
+ntui.info();
+*Returns ntui version and copyright.
+
+//ntui.fileSystem
+
+ntui.fileSystem.getFile(file)
+*Parses a file path and returns the file name with extension.
+
+ntui.fileSystem.getFilePath(file)
+*Parses a file path and return only the path.
+
+ntui.fileSystem.getFileExt(file)
+*Parses a file path and return only the file extension.
+
+//ntui.createElement
+
+ntui.createElement(tag, attrs, innerhtml)
+*Returns a DOM element with specified arguments.
+*Example use:
+var myObject = ntui.createElement(
+"div",
+{
+id:"myDiv",
+style:"background:red"
+},
+"This is my DOM element."
+);
+
+//ntui.require
+
+ntui.require(file, target, callback)
+*Imports a js file, it can import classes, functions or JSON.
+*Target argument specifies the name of the variable that will be the imported js.
+
+//ntui.render
+
+ntui.render(object, target)
+*Updates any dynamic data in specified target (all document if empty).
+*Dynamic data is ${my js code} inserted of innerHTML.
+*Parses innerHTML for dynamic data from specified object.
+
+//ntui.platform
+
+ntui.platform()
+*Returns the auto-detected platform from browser (desktop or mobile)

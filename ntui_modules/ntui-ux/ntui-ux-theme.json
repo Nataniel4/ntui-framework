@@ -1,0 +1,10 @@
+{
+    "theme_colors": {
+        "primary": "#0096FF",
+        "primaryDark": "#9437FF",
+        "secondary": "#FF7E79",
+        "secondaryDark": "#FF2F92",
+        "background": "#FFFFFF",
+        "foreground": "#212121"
+    }
+}
