@@ -4,7 +4,7 @@
 [This project is under development]
 
 This framework is focused for web ui development without using node or third-party libraries.
-Is coded fully in vanilla JS.
+It's fully coded in vanilla JS.
 
 Basic capabilities:
 
