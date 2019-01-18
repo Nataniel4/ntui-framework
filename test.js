@@ -1,5 +1,5 @@
 ntui.exports = function () {
     ntui.exports.test = function () {
-        console.log("[ntui.exports] jash!");
+        console.log("[ntui.exports] test");
     }
 };
