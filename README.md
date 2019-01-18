@@ -10,7 +10,7 @@ Basic capabilities:
 
 * Render dynamic variables into HTML content without replacing all innerHTML content.
 * Load external modules (JS files) for amplifyng framework features.
-* Manage CSS from JS converting CSS code into JSON format.
+* Manage CSS from JS by converting CSS code into JSON format.
 
 And more...
 
