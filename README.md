@@ -15,3 +15,5 @@ Basic capabilities:
 And more...
 
 When first release come, i will work on a better readme.
+
+[!] Due to compatibility issues between browsers, the framework's code doesn't contains any of ES6 syntax.
